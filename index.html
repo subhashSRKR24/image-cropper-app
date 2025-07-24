@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Crop Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Interactive Image Cropper</h2>
+  <input type="file" id="upload" accept="image/*" />
+  
+  <div id="canvasWrapper">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div id="coords">
+    <p>X: <span id="x"></span>, Y: <span id="y"></span>, Width: <span id="w"></span>, Height: <span id="h"></span></p>
+  </div>
+
+  <button id="applyCrop">Apply Crop</button>
+
+  <h3>Preview Cropped Image:</h3>
+  <canvas id="previewCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>

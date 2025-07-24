@@ -1,0 +1,13 @@
+#canvasWrapper {
+  position: relative;
+}
+
+canvas {
+  border: 1px solid black;
+  cursor: crosshair;
+  margin-top: 10px;
+}
+
+#coords {
+  margin-top: 10px;
+}
