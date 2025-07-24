@@ -1,1 +1,1 @@
-# image-cropper-app
+Remove README.md file
